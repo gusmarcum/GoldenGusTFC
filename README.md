@@ -26,7 +26,9 @@ Held on a thumb button, picking the target nearest the crosshair within 60 degre
 
 ### Bunnyhop
 
-*Pending capture.*
+![bunnyhop](media/bhop.gif)
+
+Holding space only. No strafe keys are being pressed: auto-strafe reads the yaw delta each input frame and supplies the matching `sidemove` itself. The speedometer bottom-centre reads current and peak horizontal speed, and is colour-coded green while gaining, red while losing, which is what makes the turn rate learnable. Scout runs at 400, so everything above that is air acceleration.
 
 ---
 
