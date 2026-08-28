@@ -1,3 +1,5 @@
+<img src="media/icon.png" width="150" align="right" alt="">
+
 # GoldenGusTFC
 
 A client-side ESP, aimbot and movement tool for **Team Fortress Classic** (GoldSrc, `hl.exe`, 32-bit), written as a reverse-engineering exercise against Valve's public Half-Life SDK.
