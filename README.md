@@ -10,6 +10,26 @@ The interesting part of this project is not the cheat, it is that GoldSrc hands 
 
 ---
 
+## Demo
+
+### ESP
+
+![ESP](media/esp.gif)
+
+Live targets draw solid red with name and distance. Targets the server has stopped sending draw dim grey with how long ago they were last seen, so a stale box never masquerades as a live one.
+
+### Aimbot
+
+![aimbot](media/aimbot.gif)
+
+Held on a thumb button, picking the target nearest the crosshair within 60 degrees and ignoring anything frozen. Note `[BvH]Phalanx  56m  lost 2.3` in the corner: a target the server culled two seconds ago, drawn dim and excluded from targeting.
+
+### Bunnyhop
+
+*Pending capture.*
+
+---
+
 ## How it works
 
 GoldSrc splits the client into two modules that talk through two big tables of function pointers. Get both tables and you have the whole surface.
