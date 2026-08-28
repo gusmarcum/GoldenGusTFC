@@ -1,4 +1,4 @@
-# tinksrc
+# GoldenGusTFC
 
 A client-side ESP, aimbot and movement tool for **Team Fortress Classic** (GoldSrc, `hl.exe`, 32-bit), written as a reverse-engineering exercise against Valve's public Half-Life SDK.
 
