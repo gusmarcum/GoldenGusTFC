@@ -8,8 +8,6 @@ A client-side ESP, aimbot and movement tool for **Team Fortress Classic** (GoldS
 
 The build output is still named `tfcbot.dll`.
 
-Private repo. Built and tested against bots on a local listen server.
-
 The interesting part of this project is not the cheat, it is that GoldSrc hands you almost everything through documented structures, so nearly none of it required guesswork. Every offset in `main.cpp` was measured by compiling a probe against the real SDK headers. Nothing was eyeballed in a debugger and hardcoded on a hunch.
 
 ---
